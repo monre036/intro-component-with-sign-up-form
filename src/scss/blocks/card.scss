@@ -1,0 +1,24 @@
+.card {
+  width: 20.4375rem;
+
+  &__title-container {
+    text-align: center;
+  }
+
+  &__title {
+  }
+
+  &__text {
+    margin-bottom: 60px;
+  }
+
+  &__ad {
+    background-color: #5e54a4;
+    text-align: center;
+    padding-inline: 66px;
+    padding-block: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 8px rgba(0, 0, 0, 0.121);
+    margin-bottom: 25px;
+  }
+}
