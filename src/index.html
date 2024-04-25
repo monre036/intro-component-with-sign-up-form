@@ -3,40 +3,52 @@
 
 <head>
   <meta charset="UTF-8" />
-  <!-- PON UN FAVICON!!! -->
+  <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/png" />
   <link rel="icon" type="image/svg+xml" href="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- CAMBIA EL TITLE!!! -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,600&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
   <title>Intro Component With Sign Up Form</title>
 </head>
 
 <body>
   <main class="main">
-    <div class="card">
-      <div class="card__title-container">
-        <h1 class="card__title">Learn to code by watching others</h1>
-        <p class="card__text">See how experienced developers solve problems in real-time. Watching scripted tutorials is
-          great,
-          but
-          understanding how developers think is invaluable. </p>
+    <div class="text-container">
+      <h1 class="title">Learn to code by watching others</h1>
+      <p class="text">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+        understanding how developers think is invaluable.
+      </p>
+    </div>
+    <div class="cta-form">
+      <div class="cta">
+        <p class="text-purple"><span class="text text--bold">Try it free 7 days</span> then $20/mo. thereafter</p>
       </div>
-      <p class="card__ad">Try it free 7 days then $20/mo. thereafter</p>
-      <div class="form">
-        <form action="#">
-          <ul>
-            <li>
-              <input type="text" id="name" name="user_name" class="form__item" placeholder="First Name" />
-            </li>
-            <li>
-              <input type="text" id="lastName" name="user_lastName" class="form__item" placeholder="Last Name" />
-            </li>
-            <li>
-              <input type="text" id="email" name="user_email" class="form__item" placeholder="Email Address" />
-            </li>
-            <li>
-              <input type="password" id="Password" name="user_paswd" class="form__item" placeholder="Password" />
-            </li>
-          </ul>
+      <div class="wrapper">
+        <form class="form">
+          <div class="form__field">
+            <input type="text" placeholder="First Name" required class="input" />
+          </div>
+          <div>
+            <input type="text" placeholder="Last Name" required class="input" />
+          </div>
+          <div>
+            <input type="email" placeholder="Email Address" required class="input" />
+          </div>
+          <div>
+            <input type="password" placeholder="Password" required class="input" />
+          </div>
+          <div class="terms">
+            <input type="submit" value="CLAIM YOUR FREE TRIAL" class="button button--green" />
+
+            <p class="text text--gray">
+              By clicking the button, you are agreeing to our
+              <a class="link" href="#">Terms and Services</a>
+            </p>
+          </div>
         </form>
       </div>
     </div>

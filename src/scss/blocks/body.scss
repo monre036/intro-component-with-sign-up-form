@@ -2,8 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: url(../../assets/images/bg-intro-mobile.png);
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
   background-color: #ff7979;
-  font-family: sans-serif;
+  background-image: url(../../assets/images/bg-intro-mobile.png);
   color: white;
+
+  @include responsive(desktop) {
+    background-image: url(../../assets/images/bg-intro-desktop.png);
+  }
 }
