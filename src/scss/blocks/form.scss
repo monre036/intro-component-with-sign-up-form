@@ -4,15 +4,15 @@
   padding-inline: 4.125rem;
   padding-block: 1.125rem;
   background-color: #5e54a4;
-  border-radius: 10px;
-  margin-bottom: 24px;
+  border-radius: 0.625rem;
+  margin-bottom: 1.5rem;
   box-shadow: 0 5px #17162270;
 }
 
 .form__item {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
   width: 20.4375rem;
   border-radius: 0.625rem;
   background-color: white;
@@ -24,9 +24,9 @@
 }
 
 .form__input {
-  padding-block: 15px;
-  padding-left: 19px;
-  border: 1px solid #dedede;
+  padding-block: 0.9375rem;
+  padding-left: 1.1875rem;
+  border: 0.0625rem solid #dedede;
 }
 
 .form__input::placeholder {
@@ -39,8 +39,8 @@
 .form__submit {
   color: white;
   background-color: #38cc8b;
-  padding-inline: 43px;
-  padding-block: 15px;
+  padding-inline: 2.6875rem;
+  padding-block: 0.9375rem;
   border-radius: 0.3125rem;
   border: none;
   box-shadow: 0 5px #31ae78;
