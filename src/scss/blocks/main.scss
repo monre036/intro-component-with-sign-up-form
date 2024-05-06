@@ -1,31 +1,19 @@
 @use '../mixins/responsive.scss' as *;
 
 .main {
-  padding: 88px 24px 64px;
-  text-align: center;
-
-  @include responsive(desktop) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 121px 165px;
-  }
-}
-.text-container {
-  margin-bottom: 64px;
-
-  @include responsive(desktop) {
-    width: 525px;
-    text-align: left;
-  }
-}
-
-.cta-form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  width: 327px;
+  gap: 4rem;
+  text-align: center;
+  margin-inline: 24px;
+  margin-block: 88px;
+  color: white;
+
   @include responsive(desktop) {
-    width: 540px;
+    align-items: center;
+    flex-direction: row;
+    padding-inline: 165px;
+    padding-block: 121px;
+    margin: 0;
   }
 }

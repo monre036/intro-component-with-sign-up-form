@@ -2,14 +2,14 @@
 
 .title {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 36px;
-  letter-spacing: -0.29px;
+  letter-spacing: -0.0181rem;
   margin: 0;
+
   @include responsive(desktop) {
     font-size: 3.125rem;
     line-height: 55px;
-    letter-spacing: -0.52px;
-    margin: 0 0 11px;
+    letter-spacing: -0.0325rem;
   }
 }

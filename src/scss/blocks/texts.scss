@@ -8,15 +8,29 @@
 }
 
 .text--bold {
-  font-weight: 700;
   font-size: 0.9375rem;
-  line-height: 26px;
-  letter-spacing: 0.27px;
+  font-weight: 700;
 }
 
-.text--gray {
-  font-weight: 500;
-  font-size: 11px;
+.text--cta {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.27px;
+  margin: 0;
+}
+
+.text--small {
+  font-weight: 600;
+  font-size: 0.6875rem;
   line-height: 21px;
   color: #bab7d4;
+  margin: 0;
+}
+
+.text--pink {
+  font-weight: 600;
+  font-size: 0.6875rem;
+  line-height: 21px;
+  color: #ff7979;
 }

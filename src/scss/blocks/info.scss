@@ -1,0 +1,13 @@
+@use '../mixins/responsive.scss' as *;
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  @include responsive(desktop) {
+    justify-content: center;
+    width: 32.8125rem;
+    text-align: left;
+  }
+}
